@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emergency Link Indonesia</title>
+  <link rel="icon" href="emergency-link-con.png" type="image/x-icon">
+  <link href="./src/output.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+
+  <!-- Navbar -->
+  <nav class="bg-cyan-950 p-4 text-white flex items-center justify-between">
+    <div class="flex justify-center items-center text-xl font-bold"><a href="index.html"><img class="w-12 h-auto mr-8" src="emergency-link-con.png" alt="Emergency link Journal"></a>Emergency Link Journal</div>
+    <div class="space-x-4 hidden md:flex">
+      <a href="./src/pages/current.html" class="hover:text-gray-200">Current</a>
+      <a href="./src/pages/peer-topeer.html" class="hover:text-gray-200">Peer Reviewer</a>
+      <a href="./src/pages/journal-history.html" class="hover:text-gray-200">Journal History</a>
+      <a href="./src/pages/archive.html" class="hover:text-gray-200">Archives</a>
+      <a href="./src/pages/About.html" class="hover:text-gray-200">About</a>
+    </div>
+    <div class="space-x-3">
+      <button class="bg-white text-cyan-950 px-2 py-2 text-xs rounded"><a href="./src/pages/login.html">Login</a></button>
+    </div>
+    <!-- Mobile Menu Button -->
+    <button id="menuToggle" class="md:hidden text-white">
+      &#9776;
+    </button>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div id="menu" class="bg-cyan-950  text-white p-4 hidden md:hidden">
+    <a href="/src/pages/current.html" class="block py-2">Current</a>
+    <a href="/src/pages/peer-topeer.html" class="block py-2">Peer Reviewer</a>
+    <a href="./src/pages/journal-history.html" class="block py-2">Journal History</a>
+    <a href="./src/pages/archive.html" class="block py-2">Archives</a>
+    <a href="./src/pages/About.html" class="block py-2">About</a>
+  </div>
+
+  <!-- Main Content -->
+  <div class="container mx-auto px-4 my-8 grid grid-cols-1 md:grid-cols-4 gap-6">
+
+    
+    <section class="md:col-span-3">
+      <h2 class="text-2xl font-bold mb-4">Latest Articles</h2>
+      <div class="space-y-6">
+        
+        <div class="bg-white rounded-lg shadow-md p-4">
+          <h3 class="text-lg font-bold">CHILDREN WITH PHYSICAL DISABILITIES</h3>
+          <p class="text-gray-700 font-semibold mb-2">Endah Aryati Eko Ningtyas, Nanda Bupa Pratama, Lanny Hapsari Winnursita, Rose Asni Latifah, Suprih Utomo</p>
+          <p class="text-sm text-gray-500 mb-2">Abstract viewed: <span class="font-bold">26</span> | PDF downloaded: <span class="font-bold">35</span></p>
+          <p class="text-sm text-blue-500 mb-2">DOI: <a href="#" class="underline">10.36082/qjk.v18i2.1993</a></p>
+          <a href="#" class="bg-green-500 text-white px-3 py-1 rounded inline-block">PDF</a>
+        </div>
+
+        
+        <div class="bg-white rounded-lg shadow-md p-4">
+          <h3 class="text-lg font-bold">ASOSIASI MEROKOK DENGAN PROFIL KARDIOVASKULAR DI DATARAN TINGGI</h3>
+          <p class="text-gray-700 font-semibold mb-2">Emmi Bujawati, Rimawati A.I. Sadarang, Syarfaini Syarifaini</p>
+          <p class="text-sm text-gray-500 mb-2">Abstract viewed: <span class="font-bold">18</span> | PDF downloaded: <span class="font-bold">19</span></p>
+          <p class="text-sm text-blue-500 mb-2">DOI: <a href="#" class="underline">10.36082/qjk.v18i2.1874</a></p>
+          <a href="#" class="bg-green-500 text-white px-3 py-1 rounded inline-block">PDF</a>
+        </div>
+
+        <!-- Journal Card 3 -->
+        <div class="bg-white rounded-lg shadow-md p-4">
+          <h3 class="text-lg font-bold">THE DIFFERENCES IN METABOLIC SYNDROME PARAMETERS</h3>
+          <p class="text-gray-700 font-semibold mb-2">Muhamad Zakki Saefurrohim, Akhmad Azmiardi, Intan Zainafree, Mustika Suci Susilastuti</p>
+          <p class="text-sm text-gray-500 mb-2">Abstract viewed: <span class="font-bold">28</span> | PDF downloaded: <span class="font-bold">40</span></p>
+          <p class="text-sm text-blue-500 mb-2">DOI: <a href="#" class="underline">10.36082/qjk.v18i2.1849</a></p>
+          <a href="#" class="bg-green-500 text-white px-3 py-1 rounded inline-block">PDF</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sidebar Section -->
+    <aside class="md:col-span-1">
+      <div class="bg-white p-4 rounded-lg shadow-md mb-6">
+        <h3 class="font-bold text-lg mb-2">Journal Contact</h3>
+        <p><strong>Quality: Jurnal Kesehatan</strong></p>
+        <p>Direktorat Poltekkes Kemenkes Jakarta I</p>
+        <p>&#9742; (+62) 021-75909605</p>
+        <p>&#9993; quality@poltekkesjakarta1.ac.id</p>
+      </div>
+
+      <div class="bg-white p-4 rounded-lg shadow-md mb-6">
+        <h3 class="font-bold text-lg mb-2">Plagiarism Check</h3>
+        <p>Ensure your submission adheres to our plagiarism policy.</p>
+      </div>
+
+      <div class="bg-white p-4 rounded-lg shadow-md">
+        <h3 class="font-bold text-lg mb-2">Processing Charge</h3>
+        <p>Details about article processing fees and submission charges.</p>
+      </div>
+    </aside>
+
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white text-center py-4">
+    <p>&copy; 2024 Emergency Link Indonesia. All rights reserved.</p>
+  </footer>
+
+  <!-- JavaScript for Mobile Menu Toggle -->
+  <script>
+    document.getElementById('menuToggle').addEventListener('click', () => {
+      document.getElementById('menu').classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>

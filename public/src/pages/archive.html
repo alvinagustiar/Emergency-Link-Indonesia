@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Archives - Emergecy link Journal</title>
+  <link rel="icon" href="emergency-link-con.png" type="image/x-icon">
+  <link href="../output.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+
+  <!-- Navbar -->
+  <nav class="bg-cyan-950 p-4 text-white flex items-center justify-between">
+    <div class="flex justify-center items-center text-xl font-bold"><a href="../../index.html"><img class="w-12 h-auto mr-8" src="../../emergency-link-con.png" alt="Emergency link Journal"></a>Emergency Link Journal</div>
+    <div class="space-x-4 hidden md:flex">
+      <a href="current.html" class="hover:text-gray-200">Current</a>
+      <a href="peer-topeer.html" class="hover:text-gray-200">Peer Reviewer</a>
+      <a href="journal-history.html" class="hover:text-gray-200">Journal History</a>
+      <a href="archive.html" class="hover:text-gray-200">Archives</a>
+      <a href="About.html" class="hover:text-gray-200">About</a>
+    </div>
+    <div class="space-x-3">
+      <button class="bg-white text-cyan-950 px-2 py-2 text-xs rounded"><a href="./src/pages/login.html">Login</a></button>
+    </div>
+    <!-- Mobile Menu Button -->
+    <button id="menuToggle" class="md:hidden text-white">
+      &#9776;
+    </button>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div id="menu" class="bg-cyan-950  text-white p-4 hidden md:hidden">
+    <a href="current.html" class="block py-2">Current</a>
+    <a href="peer-topeer.html" class="block py-2">Peer Reviewer</a>
+    <a href="journal-history.html" class="block py-2">Journal History</a>
+    <a href="archive.html" class="block py-2">Archives</a>
+    <a href="About.html" class="block py-2">About</a>
+  </div>
+
+  <!-- Header Section -->
+  <header class="bg-white shadow-md py-8">
+    <div class="container mx-auto text-center">
+      <h1 class="text-3xl font-bold text-gray-800">Archives</h1>
+      <p class="text-gray-600 mt-2">Daftar edisi jurnal yang telah diterbitkan sebelumnya</p>
+    </div>
+  </header>
+
+  <!-- Archives Section -->
+  <section class="container mx-auto p-6">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+      <!-- Archive Item 1 -->
+      <div class="bg-white p-4 rounded-lg shadow-md">
+        <h2 class="text-xl font-bold mb-2">Volume 18, Issue 1 (2024)</h2>
+        <p class="text-gray-700 mb-4">Topik utama: Kesehatan Masyarakat dan Epidemiologi</p>
+        <a href="#" class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">
+          Download PDF
+        </a>
+      </div>
+
+      <!-- Archive Item 2 -->
+      <div class="bg-white p-4 rounded-lg shadow-md">
+        <h2 class="text-xl font-bold mb-2">Volume 17, Issue 4 (2023)</h2>
+        <p class="text-gray-700 mb-4">Topik utama: Nutrisi dan Teknologi Kesehatan</p>
+        <a href="#" class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">
+          Download PDF
+        </a>
+      </div>
+
+      <!-- Archive Item 3 -->
+      <div class="bg-white p-4 rounded-lg shadow-md">
+        <h2 class="text-xl font-bold mb-2">Volume 17, Issue 3 (2023)</h2>
+        <p class="text-gray-700 mb-4">Topik utama: Kesehatan Mental dan Perilaku</p>
+        <a href="#" class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">
+          Download PDF
+        </a>
+      </div>
+
+      <!-- Archive Item 4 -->
+      <div class="bg-white p-4 rounded-lg shadow-md">
+        <h2 class="text-xl font-bold mb-2">Volume 17, Issue 2 (2023)</h2>
+        <p class="text-gray-700 mb-4">Topik utama: Keperawatan dan Manajemen Rumah Sakit</p>
+        <a href="#" class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">
+          Download PDF
+        </a>
+      </div>
+
+      <!-- Archive Item 5 -->
+      <div class="bg-white p-4 rounded-lg shadow-md">
+        <h2 class="text-xl font-bold mb-2">Volume 17, Issue 1 (2023)</h2>
+        <p class="text-gray-700 mb-4">Topik utama: Penyakit Menular dan Vaksinasi</p>
+        <a href="#" class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">
+          Download PDF
+        </a>
+      </div>
+
+      <!-- Archive Item 6 -->
+      <div class="bg-white p-4 rounded-lg shadow-md">
+        <h2 class="text-xl font-bold mb-2">Volume 16, Issue 4 (2022)</h2>
+        <p class="text-gray-700 mb-4">Topik utama: Kebijakan Kesehatan</p>
+        <a href="#" class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">
+          Download PDF
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-cyan-950 text-white py-6 mt-8">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2024 Quality: Jurnal Kesehatan. All Rights Reserved.</p>
+      <p>Email: <a href="mailto:quality@poltekkesjakarta1.ac.id" class="underline">quality@poltekkesjakarta1.ac.id</a></p>
+      <p>Phone: (+62) 021-75909605</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript for Mobile Menu -->
+  <script>
+    document.getElementById('menuToggle').addEventListener('click', () => {
+      document.getElementById('menu').classList.toggle('hidden');
+    });
+  </script>
+
+</body>
+</html>

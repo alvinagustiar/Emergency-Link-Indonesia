@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About-Emergecy link Journal</title>
+  <link rel="icon" href="../../emergency-link-con.png" type="image/x-icon">
+  <link href="../output.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+
+  <!-- Navbar -->
+  <nav class="bg-cyan-950 p-4 text-white flex items-center justify-between">
+    <div class="flex justify-center items-center text-xl font-bold"><a href="../../index.html"><img class="w-12 h-auto mr-8" src="../../emergency-link-con.png" alt="Emergency link Journal"></a>Emergency Link Journal</div>
+    <div class="space-x-4 hidden md:flex">
+      <a href="current.html" class="hover:text-gray-200">Current</a>
+      <a href="peer-topeer.html" class="hover:text-gray-200">Peer Reviewer</a>
+      <a href="journal-history.html" class="hover:text-gray-200">Journal History</a>
+      <a href="archive.html" class="hover:text-gray-200">Archives</a>
+      <a href="About.html" class="hover:text-gray-200">About</a>
+    </div>
+    <div class="space-x-3">
+      <button class="bg-white text-cyan-950 px-2 py-2 text-xs rounded"><a href="./src/pages/login.html">Login</a></button>
+    </div>
+    <!-- Mobile Menu Button -->
+    <button id="menuToggle" class="md:hidden text-white">
+      &#9776;
+    </button>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div id="menu" class="bg-cyan-950  text-white p-4 hidden md:hidden">
+    <a href="current.html" class="block py-2">Current</a>
+    <a href="peer-topeer.html" class="block py-2">Peer Reviewer</a>
+    <a href="journal-history.html" class="block py-2">Journal History</a>
+    <a href="archive.html" class="block py-2">Archives</a>
+    <a href="About.html" class="block py-2">About</a>
+  </div>
+
+  <!-- About Section -->
+  <section class="container mx-auto p-6">
+    <div class="bg-white p-6 rounded-lg shadow-md">
+      <h2 class="text-2xl font-bold mb-4">Tentang Jurnal</h2>
+      <p class="text-gray-700 mb-4">
+        <strong>Quality: Jurnal Kesehatan</strong> adalah jurnal ilmiah yang mempublikasikan hasil penelitian dan studi terbaru dalam bidang kesehatan. Jurnal ini dikelola oleh Poltekkes Kemenkes Jakarta I dan bertujuan untuk meningkatkan pengetahuan serta mempromosikan hasil riset di berbagai aspek kesehatan.
+      </p>
+      
+      <h2 class="text-2xl font-bold mt-6 mb-4">Visi & Misi</h2>
+      <p class="text-gray-700 mb-2">
+        <strong>Visi:</strong> Menjadi jurnal kesehatan terkemuka yang berkontribusi pada pengembangan ilmu kesehatan di Indonesia dan internasional.
+      </p>
+      <p class="text-gray-700 mb-4">
+        <strong>Misi:</strong>
+        <ul class="list-disc ml-6">
+          <li>Memfasilitasi publikasi penelitian berkualitas di bidang kesehatan.</li>
+          <li>Mendorong kolaborasi antar peneliti dan praktisi kesehatan.</li>
+          <li>Menyediakan akses terbuka terhadap hasil penelitian kesehatan.</li>
+        </ul>
+      </p>
+
+      <h2 class="text-2xl font-bold mt-6 mb-4">Tujuan</h2>
+      <p class="text-gray-700 mb-4">
+        Jurnal ini bertujuan untuk:
+        <ul class="list-disc ml-6">
+          <li>Menjadi platform komunikasi ilmiah bagi akademisi dan praktisi kesehatan.</li>
+          <li>Menyebarkan hasil penelitian yang relevan dengan kebijakan kesehatan.</li>
+          <li>Meningkatkan literasi kesehatan masyarakat melalui publikasi ilmiah.</li>
+        </ul>
+      </p>
+
+      <h2 class="text-2xl font-bold mt-6 mb-4">Kontak</h2>
+      <p class="text-gray-700 mb-2"><strong>Email:</strong> <a href="mailto:quality@poltekkesjakarta1.ac.id" class="text-blue-500 underline">quality@poltekkesjakarta1.ac.id</a></p>
+      <p class="text-gray-700 mb-2"><strong>Telepon:</strong> (+62) 021-75909605</p>
+      <p class="text-gray-700 mb-4"><strong>Alamat:</strong> Politeknik Kesehatan Kemenkes Jakarta I, Jl. Wijayakusuma Raya, Jakarta</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-cyan-950 text-white py-6 mt-8">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2024 Quality: Jurnal Kesehatan. All Rights Reserved.</p>
+      <p>Email: <a href="mailto:quality@poltekkesjakarta1.ac.id" class="underline">quality@poltekkesjakarta1.ac.id</a></p>
+      <p>Phone: (+62) 021-75909605</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript for Mobile Menu -->
+  <script>
+    document.getElementById('menuToggle').addEventListener('click', () => {
+      document.getElementById('menu').classList.toggle('hidden');
+    });
+  </script>
+
+</body>
+</html>
